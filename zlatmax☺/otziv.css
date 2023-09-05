@@ -1,0 +1,1005 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #141414;
+}
+header .container {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .head_menu_one {
+  width: 700px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+header .container .head_menu_one ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+header .container .head_menu_one ul a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #dadada;
+}
+header .container .head_menu_one ul a ul {
+  list-style: none;
+}
+header .container .head_menu_two {
+  width: 230px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+header .container .head_menu_two ul {
+  display: flex;
+  list-style: none;
+  margin-left: -20px;
+}
+header .container .head_menu_two ul a {
+  display: flex;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #dadada;
+}
+header .container .head_menu_two ul a li {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+main {
+  width: 100%;
+  height: 1800px;
+  display: block;
+}
+main .header {
+  width: 100%;
+  height: 100px;
+  background-color: #ECF1F2;
+}
+main .header .container {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .header .container .search_logo {
+  margin-top: 0px;
+  width: 900px;
+  height: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .header .container .search_logo input {
+  margin-left: 50px;
+}
+main .header .container .adres {
+  margin-left: 100px;
+  padding-top: 20px;
+  width: 900px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main .header .container .adres h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .header .container .adres h2 {
+  margin-left: 10px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .header .container .adres h2 p {
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .header .container .adres .sale {
+  margin-top: 0px;
+  display: flex;
+  justify-content: last baseline;
+  gap: 30px;
+}
+main .header .container .adres .sale h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .header .container .adres .sale h3 p {
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .main {
+  width: 100%;
+  height: 70px;
+  background: #141414;
+}
+main .main .container {
+  width: 1500px;
+  height: 70px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+main .main .container .catalogs ul {
+  display: flex;
+  align-items: center;
+}
+main .main .container .catalogs ul a {
+  margin-left: 100px;
+  text-decoration: none;
+}
+main .main .container .catalogs ul a li {
+  list-style: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+main .knife_information {
+  gap: 20px;
+  padding-top: 100px;
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+}
+main .knife_information .img_one {
+  padding-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+main .knife_information .knife_information_two {
+  width: 806px;
+  height: 788px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+}
+main .knife_information .knife_information_two .info {
+  margin-top: 50px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main .knife_information .knife_information_two .info .info_one {
+  width: 300px;
+  display: flex;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+main .knife_information .knife_information_two .info .info_one h1 {
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .knife_information .knife_information_two .info .info_one svg {
+  margin-left: 5px;
+}
+main .knife_information .knife_information_two .info .info_one p {
+  color: #24AD53;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .knife_information .knife_information_two .info .info_two {
+  margin-right: 20px;
+}
+main .knife_information .knife_information_two .info .info_two svg {
+  margin-right: 20px;
+}
+main .knife_information .knife_information_two .div {
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 746px;
+  height: 1px;
+  background: rgba(20, 20, 20, 0.15);
+}
+main .knife_information .knife_information_two .artikul {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+}
+main .knife_information .knife_information_two .artikul .artikul_one h1 {
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2;
+}
+main .knife_information .knife_information_two .artikul .artikul_two {
+  margin-left: 20px;
+}
+main .knife_information .knife_information_two .artikul .artikul_two h1 {
+  color: rgba(20, 20, 20, 0.5);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2;
+}
+main .knife_information .knife_information_two .steel {
+  margin-left: 50px;
+  display: flex;
+}
+main .knife_information .knife_information_two .steel .steel_one h1 {
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65px;
+}
+main .knife_information .knife_information_two .steel .steel_two {
+  width: 300px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+main .knife_information .knife_information_two .steel .steel_two select {
+  margin-top: 20px;
+  width: 534px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid rgba(4, 4, 4, 0.15);
+}
+main .knife_information .knife_information_two .narx {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main .knife_information .knife_information_two .narx .narx_one {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+main .knife_information .knife_information_two .narx .narx_one h1 {
+  margin-right: 70px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .knife_information .knife_information_two .narx .narx_two {
+  display: flex;
+}
+main .knife_information .knife_information_two .narx .narx_two h1 {
+  margin-right: 10px;
+  color: rgba(20, 20, 20, 0.5);
+  font-family: Montserratgtrgf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .knife_information .knife_information_two .narx .narx_two .dev {
+  cursor: pointer;
+  margin-right: 50px;
+  border-radius: 100%;
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  background: rgba(20, 20, 20, 0.3);
+  text-align: center;
+  transition: 0.5s linear;
+  transform: translate(1.1);
+}
+main .knife_information .knife_information_two .narx .narx_two .dev:hover ~ .position {
+  display: block;
+}
+main .knife_information .knife_information_two .narx .narx_two .position {
+  display: none;
+  margin-top: -120px;
+  margin-right: 120px;
+  right: 0px;
+  border: 2px solid #E8AA31;
+  position: absolute;
+  width: 429px;
+  height: 106px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+main .knife_information .knife_information_two .narx .narx_two .position p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+main .knife_information .knife_information_two .narx_top {
+  margin-top: 20px;
+  display: flex;
+}
+main .knife_information .knife_information_two .narx_top .narx_top_one {
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+  text-align: center;
+}
+main .knife_information .knife_information_two .narx_top .narx_top_one h1 {
+  color: #fff;
+}
+main .knife_information .knife_information_two .narx_top .narx_top_three {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+  text-align: center;
+}
+main .knife_information .knife_information_two .narx_top .narx_top_three h1 {
+  color: #fff;
+}
+main .knife_information .knife_information_two .narx_top .narx_top_two {
+  margin-left: 10px;
+}
+main .knife_information .knife_information_two .korzinka {
+  display: flex;
+  justify-content: space-between;
+}
+main .knife_information .knife_information_two .korzinka .korzinka_button1 button {
+  border-color: transparent;
+  margin-top: 20px;
+  width: 220px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #E8AA31;
+  color: #fff;
+}
+main .knife_information .knife_information_two .korzinka .korzinka_button button {
+  border-color: transparent;
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 220px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #000000;
+  color: #fff;
+}
+main .description {
+  margin-top: 100px;
+}
+main .description .container {
+  width: 1650px;
+  height: 404px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .description .container .xarakter {
+  margin-left: 100px;
+  gap: 50px;
+}
+main .description .container .xarakter ul {
+  display: flex;
+  gap: 100px;
+}
+main .description .container .xarakter ul a {
+  font-family: sans-serif;
+  color: #000;
+  text-decoration-color: #E8AA31;
+}
+main .description .container .xarakter ul a li {
+  list-style: none;
+}
+main .description .container .xarakter .div {
+  margin-top: 10px;
+  width: 1529px;
+  height: 1px;
+  background: rgba(20, 20, 20, 0.15);
+}
+main .description .container .xarakter .lorem {
+  opacity: 1;
+  width: 1550px;
+  margin-top: 20px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 150% */
+}
+main .description .container .xarakter .lorem p {
+  opacity: 0;
+}
+main .description .container .xarakter .xarakterichiska {
+  opacity: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+main .description .container .xarakter .xarakterichiska .xart h1 {
+  width: 5000px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 1;
+}
+main .description .container .xarakter .xarakterichiska .xart1 button {
+  width: 228px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #000;
+  color: #FEFEFE;
+  margin-left: 100px;
+}
+main .knifes {
+  padding-top: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+  gap: 50px;
+  width: 1600px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .knifes .knife_best {
+  width: 300px;
+  height: 525px;
+  margin-left: 30px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .knifes .knife_best .knife_img {
+  display: flex;
+  justify-content: center;
+}
+main .knifes .knife_best .information1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+main .knifes .knife_best .information1 .knife_information1 h1 {
+  width: 112px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 170% */
+}
+main .knifes .knife_best .information1 .knife_information1 h2 {
+  width: 51px;
+  color: #ABABAB;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 212.5% */
+}
+main .knifes .knife_best .information1 .knife_information12 {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+main .knifes .knife_best .information1 .knife_information12 h1 {
+  width: 150px;
+  color: #ABABAB;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 212.5% */
+}
+main .knifes .knife_best .information1 .knife_information12 h2 {
+  width: 93px;
+  color: #ABABAB;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 212.5% */
+}
+main .knifes .knife_best .div12 {
+  margin-left: 10px;
+  width: 290px;
+  height: 1px;
+  border: 1px solid #141414;
+  background: rgba(20, 20, 20, 0.5);
+}
+main .knifes .knife_best .sene_knife {
+  width: 300px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .knifes .knife_best .sene_knife h1 {
+  margin-left: 20px;
+}
+main .knifes .knife_best .sene_knife svg {
+  margin-left: -20px;
+}
+
+footer {
+  top: 290%;
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+  height: 1100px;
+}
+footer .container {
+  width: 1500px;
+  height: auto;
+  flex-shrink: 0;
+}
+footer .container .zlatmax {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1850px;
+  height: 379.2px;
+  flex-shrink: 0;
+  opacity: 0.3;
+  background: url(Z3NceSeZqgI.png);
+  opacity: 3;
+}
+footer .container .zlatmax .h1 h1 {
+  padding-left: 100px;
+  margin-left: 100px;
+  text-align: center;
+  width: 1060px;
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 153.333% */
+  letter-spacing: 1.5px;
+}
+footer .container .zlatmax .p p {
+  margin-left: 100px;
+  text-align: left;
+  width: 1300px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  letter-spacing: 0.54px;
+}
+footer .container .footer {
+  display: flex;
+  width: 1850px;
+  height: 500px;
+  flex-shrink: 0;
+  background: #141414;
+  margin-top: 100px;
+}
+footer .container .footer .container {
+  width: 1500;
+  height: 500px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+}
+footer .container .footer .container .about {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+footer .container .footer .container .about .about_one {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_one h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_one h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_one h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_one h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_one h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_one h6 {
+  width: 150px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_two {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_two h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_two h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_two h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_two h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_three {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_three h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_three h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_three h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_three h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_four {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_four h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_four h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_four h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_four h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_four h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .connection {
+  width: 1850px;
+  height: 500px;
+  background: #141414;
+}
+footer .container .connection .container {
+  width: 1500;
+  height: 500px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .connection .container .connection_one {
+  width: 150px;
+}
+footer .container .connection .container .connection_one svg {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -20px;
+}
+footer .container .connection .container .connection_one P {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px;
+}
+footer .container .connection .container .connection_one h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+footer .container .connection .container .connection_one h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_one h3 {
+  width: 150px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_one h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_one .img {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+footer .container .connection .container .connection_one .div_one {
+  margin-top: 20px;
+  width: 1575px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+}
+footer .container .connection .container .connection_one .email {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+footer .container .connection .container .connection_one .email .email_one p {
+  width: 500px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 192.857% */
+}
+footer .container .connection .container .connection_one .email .email_two {
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+}
+footer .container .connection .container .connection_two h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .connection .container .connection_two h2 {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+footer .container .connection .container .connection_three h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .connection .container .connection_three p {
+  margin-top: 50px;
+  width: 300px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_four {
+  height: 100px;
+}
+footer .container .connection .container .connection_four h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .connection .container .connection_four h2 {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer .container .connection .container .connection_four input {
+  margin-top: 30px;
+  width: 375px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  color: #ABABAB;
+  background: rgba(255, 255, 255, 0.05);
+}
+footer .container .connection .container .connection_four svg {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -20px;
+}
+footer .container .connection .container .connection_four .svg {
+  position: absolute;
+  z-index: 2;
+}
+footer .container .connection .container .connection_four p {
+  margin-top: 50px;
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+}/*# sourceMappingURL=otziv.css.map */

@@ -1,0 +1,1454 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #141414;
+}
+header .container {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .head_menu_one {
+  width: 700px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+header .container .head_menu_one ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+header .container .head_menu_one ul a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #dadada;
+}
+header .container .head_menu_one ul a ul {
+  list-style: none;
+}
+header .container .head_menu_two {
+  width: 230px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+header .container .head_menu_two ul {
+  display: flex;
+  list-style: none;
+  margin-left: -20px;
+}
+header .container .head_menu_two ul a {
+  display: flex;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #dadada;
+}
+header .container .head_menu_two ul a li {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+main {
+  display: block;
+}
+main .header {
+  width: 100%;
+  height: 100px;
+  background-color: #ECF1F2;
+}
+main .header .container {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .header .container .search_logo {
+  margin-top: 0px;
+  width: 900px;
+  height: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .header .container .search_logo input {
+  margin-left: 50px;
+}
+main .header .container .adres {
+  margin-left: 100px;
+  padding-top: 20px;
+  width: 900px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main .header .container .adres h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .header .container .adres h2 {
+  margin-left: 10px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .header .container .adres h2 p {
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .header .container .adres .sale {
+  margin-top: 0px;
+  display: flex;
+  justify-content: last baseline;
+  gap: 30px;
+}
+main .header .container .adres .sale h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .header .container .adres .sale h3 p {
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .main {
+  width: 100%;
+  height: 70px;
+  background: #141414;
+}
+main .main .container {
+  width: 1500px;
+  height: 70px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+main .main .container .catalogs ul {
+  display: flex;
+  align-items: center;
+}
+main .main .container .catalogs ul a {
+  margin-left: 100px;
+  text-decoration: none;
+}
+main .main .container .catalogs ul a li {
+  list-style: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+main .sale {
+  margin-top: 50px;
+}
+main .sale .container {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+}
+main .sale .container .information {
+  width: 375px;
+  height: auto;
+}
+main .sale .container .information h1 {
+  margin-top: 20px;
+}
+main .sale .container .information .check_one {
+  width: 375px;
+  height: 400px;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_one .h_one {
+  width: 375px;
+  height: 70px;
+  flex-shrink: 0;
+  background: #141414;
+  color: #fff;
+  text-align: center;
+}
+main .sale .container .information .check_one .h_one h1 {
+  margin-top: 10px;
+}
+main .sale .container .information .check_one .h_two {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+main .sale .container .information .check_one .h_two svg {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+main .sale .container .information .check_one .narx {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 312px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #CBCBCB;
+}
+main .sale .container .information .check_one .narx h1 {
+  margin-top: 5px;
+  width: 84px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_one .div1 {
+  margin-left: 30px;
+  margin-top: 125px;
+  width: 309px;
+  height: 2px;
+  background: #000;
+}
+main .sale .container .information .check_one .div2 {
+  margin-top: -6px;
+  margin-left: 100px;
+  position: absolute;
+  border: 3px solid #E8AA31;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  flex-shrink: 0;
+  background: #141414;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+}
+main .sale .container .information .check_one .div3 {
+  margin-top: -5px;
+  position: absolute;
+  right: 71.5%;
+  border: 3px solid #E8AA31;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  flex-shrink: 0;
+  background: #141414;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+}
+main .sale .container .information .check_two {
+  width: 375px;
+  height: 700px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_two .h1 {
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .sale .container .information .check_two .h1 h1 {
+  margin-top: -10px;
+  margin-left: 20px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_two .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_two .air {
+  margin-left: 20px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+main .sale .container .information .check_two .air h1 {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_two .air p {
+  margin-left: 20px;
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_three {
+  width: 375px;
+  height: 800px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_three .h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+}
+main .sale .container .information .check_three .h1 h1 {
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_three .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_three .air {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+main .sale .container .information .check_three .air h1 {
+  margin-top: 1px;
+  margin-left: 20px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_three .air p {
+  margin-left: 20px;
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_four {
+  width: 375px;
+  height: 500px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_four .h1 {
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .sale .container .information .check_four .h1 h1 {
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_four .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_four .air {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+main .sale .container .information .check_four .air h1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_four .air p {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_five {
+  width: 375px;
+  height: 500px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_five .h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+}
+main .sale .container .information .check_five .h1 h1 {
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_five .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_five .air {
+  margin-left: 20px;
+  display: flex;
+  margin-top: 20px;
+}
+main .sale .container .information .check_five .air h1 {
+  margin-left: 20px;
+  margin-top: 0px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_five .air p {
+  margin-left: 20px;
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_six {
+  width: 375px;
+  height: 200px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_six .h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+}
+main .sale .container .information .check_six .h1 h1 {
+  margin-left: 20px;
+  margin-top: -10px;
+  width: 123px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_six .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_six .air {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+main .sale .container .information .check_six .air h1 {
+  margin-top: 0px;
+  margin-left: 20px;
+  width: 263px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_seven {
+  width: 375px;
+  height: 200px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_seven .h1 {
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .sale .container .information .check_seven .h1 h1 {
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 208px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_seven .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_seven .air1 {
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 312px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #CBCBCB;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .sale .container .information .check_seven .air1 h1 {
+  margin-top: -5px;
+  width: 31px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_seven .air1 h2 {
+  width: 31px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_seven .air1 .div {
+  width: 1px;
+  height: 40px;
+  background: #CBCBCB;
+}
+main .sale .container .information .check_seven .air2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .sale .container .information .check_seven .air2 .div {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  background: #000;
+  border-radius: 100%;
+  border: 3px solid #E8AA31;
+}
+main .sale .container .information .check_seven .air2 .div1 {
+  width: 309px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #000;
+}
+main .sale .container .information .check_seven .air2 .div2 {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  background: #000;
+  border-radius: 100%;
+  border: 3px solid #E8AA31;
+}
+main .sale .container .information .check_eight {
+  width: 375px;
+  height: 200px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_eight .h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+}
+main .sale .container .information .check_eight .h1 h1 {
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 198px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_eight .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_eight .air1 {
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 312px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #CBCBCB;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .sale .container .information .check_eight .air1 h1 {
+  margin-top: -5px;
+  width: 31px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_eight .air1 h2 {
+  width: 31px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_eight .air1 .div {
+  width: 1px;
+  height: 40px;
+  background: #CBCBCB;
+}
+main .sale .container .information .check_eight .air2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .sale .container .information .check_eight .air2 .div {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  background: #000;
+  border-radius: 100%;
+  border: 3px solid #E8AA31;
+}
+main .sale .container .information .check_eight .air2 .div1 {
+  width: 309px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #000;
+}
+main .sale .container .information .check_eight .air2 .div2 {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  background: #000;
+  border-radius: 100%;
+  border: 3px solid #E8AA31;
+}
+main .sale .container .information .check_nine {
+  width: 375px;
+  height: 200px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_nine .h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+}
+main .sale .container .information .check_nine .h1 h1 {
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 198px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_nine .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_nine .air1 {
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 312px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #CBCBCB;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .sale .container .information .check_nine .air1 h1 {
+  margin-top: -5px;
+  width: 31px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_nine .air1 h2 {
+  width: 31px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_nine .air1 .div {
+  width: 1px;
+  height: 40px;
+  background: #CBCBCB;
+}
+main .sale .container .information .check_nine .air2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .sale .container .information .check_nine .air2 .div {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  background: #000;
+  border-radius: 100%;
+  border: 3px solid #E8AA31;
+}
+main .sale .container .information .check_nine .air2 .div1 {
+  width: 309px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #000;
+}
+main .sale .container .information .check_nine .air2 .div2 {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  background: #000;
+  border-radius: 100%;
+  border: 3px solid #E8AA31;
+}
+main .sale .container .information .check_ten {
+  width: 375px;
+  height: 350px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .information .check_ten .h1 {
+  width: 376px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .sale .container .information .check_ten .h1 h1 {
+  margin-left: 20px;
+  margin-top: -10px;
+  width: 93px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .sale .container .information .check_ten .h1 svg {
+  margin-right: 20px;
+}
+main .sale .container .information .check_ten .h1 h1 {
+  width: 31px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .sale .container .information .check_ten .star {
+  display: flex;
+  margin-left: 20px;
+}
+main .sale .container .information .check_ten .star svg {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+main .sale .container .knifes {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .sale .container .knifes .knife_best {
+  width: 320px;
+  height: 525px;
+  margin-left: 30px;
+  flex-shrink: 0;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+main .sale .container .knifes .knife_best .knife_img {
+  display: flex;
+  justify-content: center;
+}
+main .sale .container .knifes .knife_best .information1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+main .sale .container .knifes .knife_best .information1 .knife_information1 h1 {
+  width: 112px;
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 170% */
+}
+main .sale .container .knifes .knife_best .information1 .knife_information1 h2 {
+  width: 51px;
+  color: #ABABAB;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 212.5% */
+}
+main .sale .container .knifes .knife_best .information1 .knife_information {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+main .sale .container .knifes .knife_best .information1 .knife_information h1 {
+  width: 150px;
+  color: #ABABAB;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 212.5% */
+}
+main .sale .container .knifes .knife_best .information1 .knife_information h2 {
+  width: 93px;
+  color: #ABABAB;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 212.5% */
+}
+main .sale .container .knifes .knife_best .div12 {
+  margin-left: 10px;
+  width: 290px;
+  height: 1px;
+  border: 1px solid #141414;
+  background: rgba(20, 20, 20, 0.5);
+}
+main .sale .container .knifes .knife_best .sene_knife {
+  width: 300px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .sale .container .knifes .knife_best .sene_knife h1 {
+  margin-left: 20px;
+}
+main .sale .container .knifes .knife_best .sene_knife svg {
+  margin-left: -20px;
+}
+main .another {
+  display: block;
+  margin-left: 100px;
+}
+main .another .container {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+main .another .container .another_button {
+  width: 326px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 2px solid #E8AA31;
+  background: rgba(232, 170, 49, 0);
+  box-shadow: 0px 4px 20px 0px rgba(232, 170, 49, 0.43);
+  display: flex;
+  justify-content: center;
+}
+main .another .container .another_button button {
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px; /* 230% */
+  background: transparent;
+  border-color: transparent;
+}
+main .another .container .another_all {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+main .another .container .another_all h1 {
+  margin-left: 20px;
+}
+main .another .container .another_all svg {
+  margin-left: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 1100px;
+}
+footer .container {
+  width: 1500px;
+  height: auto;
+  flex-shrink: 0;
+}
+footer .container .zlatmax {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1850px;
+  height: 379.2px;
+  flex-shrink: 0;
+  opacity: 0.3;
+  background: url(Z3NceSeZqgI.png);
+  opacity: 3;
+}
+footer .container .zlatmax .h1 h1 {
+  padding-left: 100px;
+  margin-left: 100px;
+  text-align: center;
+  width: 1060px;
+  color: #E8AA31;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 153.333% */
+  letter-spacing: 1.5px;
+}
+footer .container .zlatmax .p p {
+  margin-left: 100px;
+  text-align: left;
+  width: 1300px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  letter-spacing: 0.54px;
+}
+footer .container .footer {
+  display: flex;
+  width: 1850px;
+  height: 500px;
+  flex-shrink: 0;
+  background: #141414;
+  margin-top: 100px;
+}
+footer .container .footer .container {
+  width: 1500;
+  height: 500px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+}
+footer .container .footer .container .about {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+footer .container .footer .container .about .about_one {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_one h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_one h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_one h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_one h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_one h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_one h6 {
+  width: 150px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_two {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_two h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_two h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_two h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_two h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_three {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_three h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_three h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_three h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_three h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_four {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_four h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+footer .container .footer .container .about .about_four h2 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  line-height: 20px;
+}
+footer .container .footer .container .about .about_four h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_four h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .footer .container .about .about_four h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 50px;
+}
+footer .container .connection {
+  width: 1850px;
+  height: 500px;
+  background: #141414;
+}
+footer .container .connection .container {
+  width: 1500;
+  height: 500px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .connection .container .connection_one {
+  width: 150px;
+}
+footer .container .connection .container .connection_one svg {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -20px;
+}
+footer .container .connection .container .connection_one P {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px;
+}
+footer .container .connection .container .connection_one h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+footer .container .connection .container .connection_one h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_one h3 {
+  width: 150px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_one h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_one .img {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+footer .container .connection .container .connection_one .div_one {
+  margin-top: 20px;
+  width: 1575px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+}
+footer .container .connection .container .connection_one .email {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+footer .container .connection .container .connection_one .email .email_one p {
+  width: 500px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 192.857% */
+}
+footer .container .connection .container .connection_one .email .email_two {
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+}
+footer .container .connection .container .connection_two h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .connection .container .connection_two h2 {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+footer .container .connection .container .connection_three h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .connection .container .connection_three p {
+  margin-top: 50px;
+  width: 300px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+footer .container .connection .container .connection_four {
+  height: 100px;
+}
+footer .container .connection .container .connection_four h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .container .connection .container .connection_four h2 {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer .container .connection .container .connection_four input {
+  margin-top: 30px;
+  width: 375px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  color: #ABABAB;
+  background: rgba(255, 255, 255, 0.05);
+}
+footer .container .connection .container .connection_four svg {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -20px;
+}
+footer .container .connection .container .connection_four .svg {
+  position: absolute;
+  z-index: 2;
+}
+footer .container .connection .container .connection_four p {
+  margin-top: 50px;
+  width: 250px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+}/*# sourceMappingURL=main.css.map */
